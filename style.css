@@ -1,0 +1,213 @@
+/*
+Theme Name: My Simple Theme
+Theme URI: http://example.com/my-simple-theme
+Author: Tuba Saif
+Author URI: http://example.com
+Description: A simple WordPress classic theme.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: my-simple-theme
+*/
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* Header */
+.site-header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.branding {
+    display: flex;
+    align-items: center;
+}
+
+.branding img {
+    max-width: 100px;
+    margin-right: 20px;
+}
+
+.site-title {
+    margin: 0;
+    font-size: 24px;
+}
+
+.site-description {
+    margin: 0;
+    font-size: 16px;
+    color: #ccc;
+}
+
+.site-navigation {
+    margin-top: 20px;
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-menu li {
+    margin: 0;
+}
+
+.nav-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    color: #1e90ff;
+}
+
+/* Footer */
+.site-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer-widgets {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.footer-widget-area {
+    width: 48%;
+}
+
+.footer-info {
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-navigation {
+    margin-top: 20px;
+}
+
+.footer-menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-menu li {
+    margin: 0;
+}
+
+.footer-menu a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-menu a:hover {
+    color: #1e90ff;
+}
+
+/* 404 */
+.error-404 {
+    text-align: center;
+    padding: 50px 20px;
+    color: #641d1d;
+}
+
+.page-title {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.page-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.search-form-wrapper h2 {
+    margin-bottom: 10px;
+}
+
+.navigation-buttons {
+    margin: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary {
+    background-color: #0073aa;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #005177;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background-color: #565e64;
+}
+
+.category-list, .recent-posts {
+    list-style: none;
+    padding: 0;
+}
+
+.category-list li, .recent-posts li {
+    margin: 5px 0;
+}
+
+
